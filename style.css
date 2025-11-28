@@ -34,7 +34,10 @@ header {
     font-weight: bold;
     color: #16165d;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .navINHeader {
     display: flex;
     gap: 20px;
@@ -86,6 +89,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    justify-content: center;
 }
 
 .textInHome h1 {
