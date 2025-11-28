@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naveen's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="textInHeader">Naveen</div>
+    <i class="fa-solid fa-bars" id="menuIcon"></i>
+    <nav class="navINHeader" id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#education">Education</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- HOME -->
+    <section class="home" id="home">
+      <img src="image\naveen.jpg" alt="Naveen Profile Picture" />
+      <div class="textInHome">
+<h1>Hi, I'm <span class="typewriter">Naveen</span></h1>
+        <h2>Student at Jai Shriram Engineering College</h2>
+        <p>
+          I'm from Tirupur. I completed my schooling at Cheyur Government Higher Secondary School.
+          I interned at FNEXT Solution as a Web Developer for 2 weeks. I've participated in multiple coding competitions and won 1st prize in the Jumbled Code event held at Jai Shriram Engineering College.
+        </p>
+        <div class="contactRow">
+          <div class="emailDiv">
+            <i class="fa-solid fa-envelope"></i>
+            <span>naveennaveen39888@gmail.com</span>
+          </div>
+          <div class="emailDiv">
+            <i class="fa-solid fa-phone"></i>
+            <span>+91-978629XX20</span>
+          </div>
+          <a href="https://github.com/naveensiva-fe" target="_blank" class="emailDiv">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/naveen-s-80a1182a4/" target="_blank" class="emailDiv">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="#" download class="emailDiv">
+            <i class="fa-solid fa-download"></i>
+            <span><b>Download Resume</b></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="Skills" id="skills">
+      <h1 class="section-title">Core Skills</h1>
+      <div class="Skill-box">
+        <h2>Languages</h2>
+        <div class="LanguagesList">
+          <div>Python</div>
+          <div>C</div>
+          <div>Java</div>
+        </div>
+      </div>
+
+      <div class="Skill-box">
+        <h2>Web Development</h2>
+        <div class="LanguagesList">
+          <div>HTML</div>
+          <div>CSS</div>
+          <div>JavaScript</div>
+          <div>React</div>
+          <div>MongoDB</div>
+          <div>Node.js</div>
+          <div>Express.js</div>
+        </div>
+      </div>
+
+      <div class="Skill-box">
+        <h2>Designing</h2>
+        <div class="LanguagesList">
+          <div>Figma</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <h1 class="section-title">Projects</h1>
+      <div class="projectDisplay">
+        <div class="projectCard">
+          <img src="image\lib.PNG" alt="Library Management System" />
+          <h4>Library Management System</h4>
+        </div>
+        <div class="projectCard">
+          <img src=image\pesornal.png alt="Personal Profile" />
+          <h4>Personal Portfolio Website</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="education" id="education">
+      <h1 class="section-title">Education</h1>
+      <div class="education-content">
+        <div class="education-item">
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="education-text">
+            <h3>BE - Computer Science & Engineering</h3>
+            <p>Jai Shriram Engineering College — CGPA: 8.35</p>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-school"></i>
+          </div>
+          <div class="education-text">
+            <h3>HSC (+2)</h3>
+            <p>Govt. Higher Secondary School, Cheyur — 74%</p>
+          </div>
+        </div>
+        <div class="education-item">
+          <div class="icon-wrapper">
+            <i class="fa-solid fa-book"></i>
+          </div>
+          <div class="education-text">
+            <h3>SSLC (10th)</h3>
+            <p>Govt. Higher Secondary School, Cheyur — Passed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="Achievements" id="achievements">
+      <h1 class="section-title">Achievements</h1>
+      <ul>
+        <li>Won 1st prize in JUMBLED CODES at Jai Shriram Engineering College.</li>
+        <li>Won 2nd prize for Disc Throw at Jai Shriram Engineering College.</li>
+        <li>Participated in "Quiz Mania" by FNEXT (June 2025).</li>
+        <li>Participated in CODE ARENA at KPR Institute.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Naveen. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuIcon = document.getElementById("menuIcon");
+    const navMenu = document.getElementById("navMenu");
+
+    menuIcon.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+    });
+
+    document.querySelectorAll(".navINHeader a").forEach(link => {
+      link.addEventListener("click", () => {
+        navMenu.classList.remove("active");
+      });
+    });
+
+    
+  </script>
+
+</body>
+</html>
