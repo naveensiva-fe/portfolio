@@ -4,6 +4,7 @@ import degree from '../images/degree.png'
 import twelth from '../images/image.png'
 import tenth from '../images/tenth.png'
 
+
 function Education() {
   const educations = [
     { degree: 'B.E. Computer Science', institution: 'Jai Shriram Engineering College', year: '2023-2027', grade: '8.5 CGPA', icon: { degree } },
