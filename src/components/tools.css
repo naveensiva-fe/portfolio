@@ -56,3 +56,29 @@
     font-weight: 500;
     text-align: center;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .tools-container {
+        padding: 30px 15px;
+        margin: 10px;
+    }
+    .tools-container h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .tools-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 20px;
+    }
+    .tool-item {
+        padding: 15px;
+    }
+    .tool-item img {
+        width: 50px;
+        height: 50px;
+    }
+    .tool-item p {
+        font-size: 1em;
+    }
+}

@@ -66,3 +66,35 @@
     font-weight: 500;
     border: 1px solid rgba(255, 90, 30, 0.4);
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .course-container {
+        padding: 30px 15px;
+        margin: 10px;
+    }
+    .course-container h1 {
+        font-size: 2em;
+    }
+    .courses-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+    }
+    .course-card {
+        padding: 20px 15px;
+    }
+    .course-icon {
+        font-size: 2.5em;
+        width: 60px;
+        height: 60px;
+    }
+    .course-card h3 {
+        font-size: 1.1em;
+        margin: 10px 0 15px 0;
+    }
+    .skill-badge {
+        font-size: 0.8em;
+        padding: 5px 10px;
+    }
+}

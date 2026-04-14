@@ -62,3 +62,36 @@
     font-size: 0.9em;
     margin: 8px 0 0 0;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .competition-container {
+        padding: 30px 15px;
+        margin: 10px;
+    }
+    .competition-container h1 {
+        font-size: 2em;
+    }
+    .competition-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+    }
+    .competition-card {
+        padding: 20px 15px;
+    }
+    .comp-icon {
+        font-size: 2.5em;
+        width: 60px;
+        height: 60px;
+    }
+    .competition-card h3 {
+        font-size: 1.1em;
+    }
+    .competition-card .result {
+        font-size: 0.9em;
+    }
+    .competition-card .org {
+        font-size: 0.85em;
+    }
+}

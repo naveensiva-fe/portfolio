@@ -71,4 +71,37 @@
     font-size: 0.85em;
     font-weight: 500;
     border: 1px solid rgba(255, 90, 30, 0.4);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .projects-container {
+        padding: 30px 15px;
+        margin: 10px;
+    }
+    .projects-container h1 {
+        font-size: 2em;
+    }
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+    }
+    .project-card {
+        padding: 20px 15px;
+    }
+    .project-icon {
+        width: 200px;
+        height: 60px;
+    }
+    .project-card h3 {
+        font-size: 1.1em;
+    }
+    .project-card .tech {
+        font-size: 0.9em;
+    }
+    .feature-tag {
+        font-size: 0.8em;
+        padding: 5px 10px;
+    }
 }   

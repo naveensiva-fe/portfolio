@@ -64,3 +64,25 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .nav-container {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .nav-containers {
+        padding: 5px 10px;
+        gap: 10px;
+    }
+    .nav-containers img {
+        width: 50px;
+        height: 50px;
+    }
+    .nav-containers a {
+        font-size: 16px;
+    }
+    body {
+        padding-top: 70px;
+    }
+}

@@ -7,3 +7,11 @@
     padding: 20px;
     color: hwb(0 0% 100%);
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px;
+        text-align: center;
+    }
+}

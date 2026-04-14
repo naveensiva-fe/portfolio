@@ -66,3 +66,35 @@
     font-size: 1em;
     margin: 10px 0 0 0;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .education-container {
+        padding: 30px 15px;
+        margin: 10px;
+    }
+    .education-container h1 {
+        font-size: 2em;
+    }
+    .education-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+    }
+    .education-card {
+        padding: 20px 15px;
+    }
+    .edu-icon {
+        font-size: 2.5em;
+        width: 50px;
+        height: 50px;
+    }
+    .education-card h3 {
+        font-size: 1.1em;
+    }
+    .education-card .institution,
+    .education-card .year,
+    .education-card .grade {
+        font-size: 0.9em;
+    }
+}

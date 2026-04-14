@@ -30,7 +30,7 @@
     background-color: #ff5a1e;
     color: white;
     border: none;
-    width: 60px;
+    width: 100px;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -68,4 +68,37 @@ span{
 .hero-image {
     display: flex;
     align-items: center;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .hero-container {
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 15px;
+        margin: 10px;
+        gap: 15px;
+    }
+    .hero-content {
+        width: 100%;
+        text-align: justify;
+    }
+    h1, span {
+        font-size: 32px;
+    }
+    .hero-content p {
+        font-size: 1em;
+    }
+    .hero-desc {
+        font-size: 0.9em;
+    }
+    .hero-container img {
+        width: 150px;
+        height: 150px;
+    }
+    .button {
+        width: 120px;
+        padding: 12px 24px;
+        font-size: 18px;
+    }
 }
