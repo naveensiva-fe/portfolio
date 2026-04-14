@@ -6,9 +6,9 @@ import laundry from '../images/laundry.png'
 
 function Projects() {
     const projects = [
-        { title: 'College Admission System', tech: 'MERN Stack', icon: { admission }, features: ['CRUD Operations', 'REST APIs', 'Responsive UI'] },
-        { title: 'Employee Management', tech: 'React & Node.js', icon: { employee }, features: ['Employee Data', 'Attendance Tracking', 'Reports'] },
-        { title: 'Laundry Management', tech: 'Full Stack', icon: { laundry }, features: ['Order Management', 'Status Tracking', 'Real-time Updates'] }
+        { title: 'College Admission System', tech: 'MERN Stack', icon:  admission , features: ['CRUD Operations', 'REST APIs', 'Responsive UI'] },
+        { title: 'Employee Management', tech: 'React & Node.js', icon:  employee , features: ['Employee Data', 'Attendance Tracking', 'Reports'] },
+        { title: 'Laundry Management', tech: 'Full Stack', icon:  laundry , features: ['Order Management', 'Status Tracking', 'Real-time Updates'] }
     ]
 
     return (

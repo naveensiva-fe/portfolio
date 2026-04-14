@@ -7,9 +7,9 @@ import tenth from '../images/tenth.png'
 
 function Education() {
   const educations = [
-    { degree: 'B.E. Computer Science', institution: 'Jai Shriram Engineering College', year: '2023-2027', grade: '8.5 CGPA', icon: { degree } },
-    { degree: 'HSC (+2)', institution: 'Government Higher Secondary School', year: '2022-2023', grade: '74%', icon: { twelth } },
-    { degree: 'SSLC (10th)', institution: 'Government Higher Secondary School', year: '2020-2021', grade: 'Passed', icon: { tenth } }
+    { degree: 'B.E. Computer Science', institution: 'Jai Shriram Engineering College', year: '2023-2027', grade: '8.5 CGPA', icon: degree },
+    { degree: 'HSC (+2)', institution: 'Government Higher Secondary School', year: '2022-2023', grade: '74%', icon: twelth },
+    { degree: 'SSLC (10th)', institution: 'Government Higher Secondary School', year: '2020-2021', grade: 'Passed', icon: tenth }
   ]
 
   return (
