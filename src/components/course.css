@@ -1,0 +1,68 @@
+.course-container{
+    background: linear-gradient(135deg, #d3d3d3, #ffe6e6);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 50px 20px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.course-container h1 {
+    color: #ff5a1e;
+    font-size: 2.5em;
+}
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+}
+.course-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 35px 25px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+}
+.course-icon {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.course-card h3 {
+    color: #ff5a1e;
+    font-size: 1.35em;
+    margin: 15px 0 20px 0;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+.skill-badge {
+    background: rgba(255, 90, 30, 0.2);
+    color: #ff5a1e;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+    border: 1px solid rgba(255, 90, 30, 0.4);
+}

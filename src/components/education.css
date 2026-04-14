@@ -1,0 +1,68 @@
+.education-container{
+    background: linear-gradient(135deg, #d3d3d3, #ffe6e6);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 50px 20px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.education-container h1 {
+    color: #ff5a1e;
+    font-size: 2.5em;
+}
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+}
+.education-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+.education-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.edu-icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+.education-card h3 {
+    color: #ff5a1e;
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+.education-card .institution {
+    color: #000000;
+    font-size: 0.95em;
+    margin: 8px 0;
+}
+.education-card .year {
+    color: #666666;
+    font-size: 0.9em;
+    margin: 8px 0;
+}
+.education-card .grade {
+    color: #ff5a1e;
+    font-weight: 600;
+    font-size: 1em;
+    margin: 10px 0 0 0;
+}
