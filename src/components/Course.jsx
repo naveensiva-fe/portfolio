@@ -1,6 +1,6 @@
 import React from 'react'
 import './course.css'   
-import dsa from 'src/images/dsa.png'
+import dsa from '../images/dsa.png'
 
 function Course() {
   const courses = [

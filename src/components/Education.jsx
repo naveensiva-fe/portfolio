@@ -1,8 +1,8 @@
 import React from 'react'
 import './education.css'
-import degree from 'src/images/degree.png'
-import twelth from 'src/images/image.png'
-import tenth from 'src/images/10th.png'
+import degree from '../images/degree.png'
+import twelth from '../images/image.png'
+import tenth from '../images/tenth.png'
 
 function Education() {
   const educations = [

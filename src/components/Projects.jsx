@@ -1,8 +1,8 @@
 import React from 'react'
 import './project.css'
-import admission from 'src/images/admission.png'
-import employee from 'src/images/employee.png'
-import laundry from 'src/images/laundry.png'
+import admission from '../images/admission.png'
+import employee from '../images/employee.png'
+import laundry from '../images/laundry.png'
 
 function Projects() {
     const projects = [
