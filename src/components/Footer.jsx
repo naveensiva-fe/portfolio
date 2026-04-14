@@ -6,8 +6,8 @@ function Footer() {
     <>
     <footer className='footer'>
         <center>
-        <p>Designed and Developed by Naveen S</p>
-        <p>&copy; 2026 All rights reserved.</p>
+        <p style={{padding:"0px",margin:"0px"}}>Designed and Developed by Naveen S</p>
+        <p style={{padding:"0px",margin:"0px"}}>&copy; 2026 All rights reserved.</p>
          </center>
     </footer>
     </>

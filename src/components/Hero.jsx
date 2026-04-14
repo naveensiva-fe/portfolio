@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.css'
+import myimg from 'src/images/myimg1.jpg'
 
 function Hero() {
   return (
@@ -14,7 +15,7 @@ function Hero() {
         <div className='button'>Hire Me</div>
        </div>
        <div>
-        <img src="src\images\myimg1.jpg" alt="" style={{borderRadius:"60px",marginTop:"10px"}} height={300} width={300}/>
+        <img src={myimg} alt="" style={{borderRadius:"60px",marginTop:"10px"}} height={300} width={300}/>
        </div>
     </div>
     </div>

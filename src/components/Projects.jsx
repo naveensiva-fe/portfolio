@@ -1,11 +1,14 @@
 import React from 'react'
 import './project.css'
+import admission from 'src/images/admission.png'
+import employee from 'src/images/employee.png'
+import laundry from 'src/images/laundry.png'
 
 function Projects() {
     const projects = [
-        { title: 'College Admission System', tech: 'MERN Stack', icon: 'src/images/admission.png', features: ['CRUD Operations', 'REST APIs', 'Responsive UI'] },
-        { title: 'Employee Management', tech: 'React & Node.js', icon: 'src/images/employee.png', features: ['Employee Data', 'Attendance Tracking', 'Reports'] },
-        { title: 'Laundry Management', tech: 'Full Stack', icon: 'src/images/laundry.png', features: ['Order Management', 'Status Tracking', 'Real-time Updates'] }
+        { title: 'College Admission System', tech: 'MERN Stack', icon: { admission }, features: ['CRUD Operations', 'REST APIs', 'Responsive UI'] },
+        { title: 'Employee Management', tech: 'React & Node.js', icon: { employee }, features: ['Employee Data', 'Attendance Tracking', 'Reports'] },
+        { title: 'Laundry Management', tech: 'Full Stack', icon: { laundry }, features: ['Order Management', 'Status Tracking', 'Real-time Updates'] }
     ]
 
     return (

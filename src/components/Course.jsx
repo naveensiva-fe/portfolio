@@ -1,10 +1,11 @@
 import React from 'react'
 import './course.css'   
+import dsa from 'src/images/dsa.png'
 
 function Course() {
   const courses = [
     { title: 'Web Development', skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js'], icon: 'https://cdn-icons-png.flaticon.com/512/1055/1055666.png' },
-    { title: 'Java DSA', skills: ['Data Structures', 'Algorithms', 'Problem Solving', 'Coding Interview'], icon: 'src/images/dsa.png' }
+    { title: 'Java DSA', skills: ['Data Structures', 'Algorithms', 'Problem Solving', 'Coding Interview'], icon: { dsa } }
   ]
 
   return (
