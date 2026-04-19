@@ -5,7 +5,7 @@ import myimg from '../images/myimg1.jpg'
 function Hero() {
   return (
     <div className='hero'>
-        <h1 >About Me <span>CD pipeline added</span></h1>
+        <h1 >About Me </h1>
     <div className='hero-container'>
         <div>
         <img src={myimg} alt="" style={{borderRadius:"60px",marginTop:"10px"}} height={300} width={300}/>
